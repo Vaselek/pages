@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import BrowserRouter from "react-router-dom/es/BrowserRouter";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const app = () => (
+const app = (
   <BrowserRouter>
     <App />
   </BrowserRouter>
